@@ -385,7 +385,21 @@ for col, (label, value, icon) in zip(metric_cols, metrics):
 # --------------------------------------------------
 # CATEGORY SUMMARY
 # --------------------------------------------------
+
+# CATEGORY SUMMARY
+# --------------------------------------------------
 st.markdown("### Category breakdown")
+
+categories_to_show = [
+    "Documents",
+    "Images",
+    "Videos",
+    "Music",
+    "Archives",
+    "Code",
+    "Programs",
+    "Others"
+]
 
 category_cols = st.columns(4)
 
